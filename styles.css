@@ -63,12 +63,15 @@ align-items: center;
     font-size: 24px;;
 }
 
-.books img {
+.books {
     background-color: white;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     gap: 32px;
-    margin-left: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
 
 .quote{
@@ -88,7 +91,6 @@ justify-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
-font-size: 20px;
-margin: 5%;
-}
+    font-size: 20px;
+    margin: 5%;
 }
